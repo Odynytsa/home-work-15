@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+/* Navigation */
+@layer components {
+  .nav-link {
+    @apply hover:text-blue-400 transition;
+  }
+
+  .mobile-menu-link {
+    @apply text-gray-200 hover:text-blue-400 transition;
+  }
+
+  .nav-button {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition;
+  }
+
+  .btn-primary-hover {
+    @apply transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 border-2 border-white hover:bg-white hover:text-blue-900 text-white font-semibold rounded-lg transition;
+  }
+
+  /* Common Spacing */
+  .padding-responsive {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Typography */
+  .heading-primary {
+    @apply text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight;
+  }
+
+  .text-primary {
+    @apply text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed;
+  }
+
+  /* Features */
+  .feature-card {
+    @apply text-center;
+  }
+
+  .feature-icon {
+    @apply text-4xl mb-4;
+  }
+
+  .feature-title {
+    @apply text-xl font-bold mb-3;
+  }
+
+  .feature-text {
+    @apply text-gray-300;
+  }
+
+  /* Footer */
+  .footer-link {
+    @apply hover:text-blue-400 transition;
+  }
+}
+
+/* Burger Menu Animation */
+.mobile-menu.open {
+  max-height: 500px;
+}
+
+.burger-line {
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+
+#burger-btn.active .burger-line:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+#burger-btn.active .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+#burger-btn.active .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
