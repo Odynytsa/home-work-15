@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-tailwind-project</title>
+  <script type="module" crossorigin src="./assets/index-cgu3Th0f.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CBs_YvjP.css">
+</head>
+
+<body class="bg-[#050A5F] text-white">
+
+  <header class="sticky top-0 z-50 bg-[#050A5F]/95 backdrop-blur">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center py-6 padding-responsive">
+      <div class="text-2xl font-bold">N</div>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex gap-8 text-sm">
+        <li><a href="#" class="nav-link">Product</a></li>
+        <li><a href="#" class="nav-link">AI</a></li>
+        <li><a href="#" class="nav-link">Solutions</a></li>
+        <li><a href="#" class="nav-link">Resources</a></li>
+        <li><a href="#" class="nav-link">Developers</a></li>
+        <li><a href="#" class="nav-link">Enterprise</a></li>
+        <li><a href="#" class="nav-link">Pricing</a></li>
+      </ul>
+
+      <!-- Desktop Buttons -->
+      <div class="hidden md:flex gap-4">
+        <button class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition text-sm font-medium">Get Notion
+          free</button>
+        <button class="px-4 py-2 text-sm font-medium nav-link">Log in</button>
+      </div>
+
+      <!-- Burger Menu Button -->
+      <button id="burger-btn" class="md:hidden flex flex-col gap-1.5 w-8 h-8 justify-center items-center">
+        <span class="burger-line h-0.5 w-full bg-white transition-all duration-300"></span>
+        <span class="burger-line h-0.5 w-full bg-white transition-all duration-300"></span>
+        <span class="burger-line h-0.5 w-full bg-white transition-all duration-300"></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu max-h-0 md:hidden overflow-hidden transition-all duration-300">
+      <div class="padding-responsive py-4 space-y-3 bg-[#050A5F]/90 backdrop-blur border-t border-gray-700">
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Product</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">AI</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Solutions</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Resources</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Developers</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Enterprise</a>
+        <a href="#" class="mobile-menu-link block py-2 text-sm">Pricing</a>
+        <hr class="border-gray-600 my-3" />
+        <button class="w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition text-sm font-medium">Get
+          Notion free</button>
+        <button
+          class="w-full px-4 py-2 border border-blue-400 hover:bg-blue-400 hover:text-blue-900 rounded-lg transition text-sm font-medium">Log
+          in</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with Video -->
+    <section class="relative w-full h-screen flex items-center justify-center overflow-hidden">
+
+      <!-- Video Background -->
+      <div class="absolute inset-0 w-full h-full">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+          <source src="./assets/web-homepage-hero-new_desktop_final-CZ_1Ty_7.mp4" type="video/mp4" />
+        </video>
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-[#050A5F]/80"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-4xl mx-auto padding-responsive text-center">
+        <h1 class="heading-primary">
+          Meet the night shift.
+        </h1>
+
+        <p class="text-primary">
+          Notion agents keep work moving 24/7. They capture knowledge, answer questions, and push projects forward—all
+          while you sleep.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button class="btn-primary btn-primary-hover">
+            Get Notion free
+          </button>
+
+          <button class="btn-secondary">
+            Request a demo
+          </button>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+        <svg class="w-6 h-6 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Additional Features Section -->
+    <section class="py-20 bg-gradient-to-b from-[#050A5F] to-[#0F1B7F] px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="feature-card">
+            <div class="feature-icon">🤖</div>
+            <h3 class="feature-title">AI Agents</h3>
+            <p class="feature-text">Autonomous agents that work around the clock to push your projects forward.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💡</div>
+            <h3 class="feature-title">Smart Knowledge</h3>
+            <p class="feature-text">Capture and organize knowledge automatically with AI-powered insights.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Work 24/7</h3>
+            <p class="feature-text">Keep momentum going even when your team is offline.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#030340] text-gray-300 py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <!-- Footer Content -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <!-- Brand -->
+        <div class="md:col-span-1">
+          <div class="text-2xl font-bold text-white mb-4">N</div>
+          <p class="text-sm">AI agents working 24/7 to power your productivity.</p>
+          <!-- Social Links -->
+          <div class="flex gap-4 mt-6">
+            <a href="#" class="footer-link">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-link">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M23.953 4.57a10 10 0 002.856-3.915 10 10 0 01-2.837.856c1.021-.609 1.802-1.574 2.165-2.723-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-link">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product -->
+        <div>
+          <h4 class="font-semibold text-white mb-4">Product</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="footer-link text-sm">Features</a></li>
+            <li><a href="#" class="footer-link text-sm">Pricing</a></li>
+            <li><a href="#" class="footer-link text-sm">Security</a></li>
+            <li><a href="#" class="footer-link text-sm">Roadmap</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h4 class="font-semibold text-white mb-4">Company</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="footer-link text-sm">About</a></li>
+            <li><a href="#" class="footer-link text-sm">Blog</a></li>
+            <li><a href="#" class="footer-link text-sm">Careers</a></li>
+            <li><a href="#" class="footer-link text-sm">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div>
+          <h4 class="font-semibold text-white mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="footer-link text-sm">Documentation</a></li>
+            <li><a href="#" class="footer-link text-sm">API Reference</a></li>
+            <li><a href="#" class="footer-link text-sm">Tutorials</a></li>
+            <li><a href="#" class="footer-link text-sm">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="border-t border-gray-700 pt-8">
+        <!-- Footer Bottom -->
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-sm text-gray-400">© 2026 Notion Agents. All rights reserved.</p>
+          <div class="flex gap-6 mt-4 md:mt-0">
+            <a href="#" class="footer-link text-sm">Privacy Policy</a>
+            <a href="#" class="footer-link text-sm">Terms of Service</a>
+            <a href="#" class="footer-link text-sm">Cookie Settings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
